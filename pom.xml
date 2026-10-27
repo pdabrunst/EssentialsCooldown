@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.tmkc.essentialscooldown</groupId>
+    <groupId>com.pdabrunst.essentialscooldown</groupId>
     <artifactId>EssentialsCooldown</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
@@ -95,7 +95,7 @@
                             <relocations>
                                 <relocation>
                                     <pattern>com.github.puregero.multilib</pattern>
-                                    <shadedPattern>com.tmkc.essentialscooldown.libs.multilib</shadedPattern>
+                                    <shadedPattern>com.pdabrunst.essentialscooldown.libs.multilib</shadedPattern>
                                 </relocation>
                             </relocations>
                             <filters>
